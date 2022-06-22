@@ -33,3 +33,18 @@ from COUNTRY
 where
 
 country LIKE '_____'
+
+--city tablosundaki şehir isimlerinin kaç tanesi 'R' veya r karakteri ile biter?
+
+select
+count (DISTINCT CITY)
+from CITY
+where
+
+CITY ILIKE '%r' 
+
+
+
+
+
+
